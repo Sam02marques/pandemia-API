@@ -1,0 +1,169 @@
+
+[
+    {
+        "id": 1,
+        "nome": "Peste de Atenas",
+        "periodo": "430-427 a.C",
+        "sintomas": "febre alta, dores no peito, vômitos, pústulas na pele e convulsões",
+        "descriçao": " Surto epidêmico ocorrido em Atenas durante a Guerra do Peloponeso. Causou a morte de até 35% da população da cidade",
+        "regiao": "Grécia Antiga"
+
+    },
+
+    {
+        "id": 2,
+        "nome": "Peste Antonina",
+        "periodo": "166 d.C",
+        "sintomas": "varíola ou sarampo",
+        "descriçao": " Epidemia que assolou o Império Romano durante o reinado de Marco Aurélio. Estima-se que tenha matado cerca de 5 milhões de pessoas, incluindo soldados e civis",
+        "regiao": "Roma"
+    },
+
+    {
+        "id": 3,
+        "nome": "Peste Negra",
+        "periodo": "1347-1353",
+        "sintomas": "Dores no corpo, principalmente nos braços, pernas e abdômen, inchaço e dor nos gânglios linfáticos, formando bubões. Manchas escuras na pele, Perda de apetite, Náuseas e vômitos, confusão mental",
+        "descriçao": "Uma das pandemias mais devastadoras da história. Também causada pela Yersinia pestis, matou entre 75 a 200 milhões de pessoas na Europa, Ásia e Norte da África. Provocou colapso social e econômico em muitos lugares",
+        "regiao": "Europa e Ásia",
+        "transmissao": " pulgas de ratos e também de pessoa pra pessoa via peste pneumônica"
+    },
+
+    {
+        "id": 4,
+        "nome": "Gripe Espanhola",
+        "periodo": "1918-1919",
+        "sintomas": "Febre, tosse, coriza, dores de cabeça, dores no corpo e, em casos graves, pneumonia",
+        "descriçao": "Pandemia causada por uma mutação do vírus influenza H1N1. Estima-se que tenha matado entre 50 a 100 milhões de pessoas no mundo. Afetou gravemente o Brasil, com cerca de 35 mil mortos. Espalhou-se rapidamente durante a Primeira Guerra Mundial. Foi marcada por medidas de isolamento social e colapso nos sistemas de saúde",
+        "regiao": "Global",
+        "transmissao": "Via respiratória, através de gotículas expelidas por indivíduos infectados"
+    },
+
+    {
+        "id": 5,
+        "nome": "Varíola",
+        "periodo": "430 a.C. até erradicação em 1980",
+        "sintomas": "Febre, dores no corpo, vômitos e erupções cutâneas que evoluem para úlceras.",
+        "descricao": "Doença viral que matou centenas de milhões antes da vacinação em massa. Foi erradicada oficialmente pela OMS em 1980.",
+        "regiao": "Global",
+        "transmissao": "Contato direto entre pessoas, especialmente por secreções respiratórias."
+    },
+
+    {
+        "id": 6,
+        "nome": "Cólera",
+        "periodo": "Desde 1817 (várias pandemias)",
+        "sintomas": "Diarreia intensa, cólicas e enjoo.",
+        "descricao": "Infecção bacteriana causada pelo Vibrio cholerae, associada à ingestão de água ou alimentos contaminados.",
+        "regiao": "África, Ásia e regiões com saneamento precário.",
+        "transmissao": "Ingestão de água ou alimentos contaminados."
+        },
+
+        {
+        "id": 7,
+        "nome": "Gripe Asiática",
+        "periodo": "1957-1958",
+        "sintomas": "Febre, tosse, fadiga e mal-estar (sem sintomas específicos amplamente registrados).",
+        "descricao": "Causada pelo vírus H2N2, originada na China. Resultou em cerca de 2 milhões de mortes.",
+        "regiao": "Global",
+        "transmissao": "Gotículas respiratórias."
+        },
+        {
+        "id": 8,
+        "nome": "Gripe de Hong Kong",
+        "periodo": "1968-1970",
+        "sintomas": "Febre, dor de garganta, dores no corpo, tosse seca.",
+        "descricao": "Causada pelo vírus H3N2, matou cerca de 1 milhão de pessoas. Foi uma das primeiras pandemias com resposta médica rápida.",
+        "regiao": "Global",
+        "transmissao": "Gotículas respiratórias."
+        },
+        {
+        "id": 9,
+        "nome": "HIV/AIDS",
+        "periodo": "Desde 1981",
+        "sintomas": "Imunidade comprometida, infecções oportunistas, perda de peso, febre persistente.",
+        "descricao": "Causada pelo vírus HIV, já matou cerca de 30 milhões de pessoas. Ainda não há cura, mas há tratamentos eficazes.",
+        "regiao": "Global",
+        "transmissao": "Sexo desprotegido, sangue contaminado, transmissão vertical (mãe para filho)."
+        },
+        {
+        "id": 10,
+        "nome": "Ebola",
+        "periodo": "1976 até surtos atuais (destaque 2013-2016)",
+        "sintomas": "Febre alta, dor de cabeça, vômitos, hemorragias internas e externas.",
+        "descricao": "Vírus altamente letal com taxa de mortalidade superior a 50% em alguns surtos, principalmente na África Central e Ocidental.",
+        "regiao": "África Ocidental e Central",
+        "transmissao": "Contato com sangue, fluidos corporais ou tecidos de infectados."
+        },
+        {
+        "id": 11,
+        "nome": "Gripe Suína (H1N1)",
+        "periodo": "2009-2010",
+        "sintomas": "Febre, tosse, dor de garganta, dores no corpo, calafrios e fadiga.",
+        "descricao": "Causada por uma nova cepa do vírus H1N1, foi declarada pandemia pela OMS e resultou em centenas de milhares de mortes.",
+        "regiao": "Global",
+        "transmissao": "Gotículas respiratórias e contato com superfícies contaminadas."
+        },
+
+        {
+        "id": 12,
+        "nome": "COVID-19",
+        "periodo": "2019 até o presente",
+        "sintomas": "Febre, tosse seca, cansaço, perda de olfato e paladar, dificuldade respiratória em casos graves.",
+        "descricao": "Causada pelo coronavírus SARS-CoV-2, levou a lockdowns globais e milhões de mortes. Impactou todos os setores da sociedade.",
+        "regiao": "Global",
+        "transmissao": "Gotículas respiratórias, contato com superfícies contaminadas e transmissão aérea em ambientes fechados."
+        },
+
+        {
+        "id": 13,
+        "nome": "Gripe Russa",
+        "periodo": "1889-1890",
+        "sintomas": "Febre, dores musculares, tosse e fadiga.",
+        "descricao": "Considerada a primeira pandemia de gripe moderna registrada. Acredita-se que tenha sido causada por uma cepa do coronavírus OC43 ou influenza.",
+        "regiao": "Europa, Ásia e América do Norte",
+        "transmissao": "Gotículas respiratórias e contato direto."
+        },
+
+        {
+        "id": 14,
+        "nome": "Febre Amarela",
+        "periodo": "Surtos entre os séculos XVII e XX",
+        "sintomas": "Febre alta, calafrios, icterícia, dores musculares, náuseas e sangramentos.",
+        "descricao": "Vírus transmitido por mosquitos, causou várias epidemias urbanas e foi uma ameaça especialmente nas Américas e África.",
+        "regiao": "América do Sul, América Central, África",
+        "transmissao": "Picada do mosquito Aedes aegypti infectado."
+        },
+
+        {
+        "id": 15,
+        "nome": "SARS (Síndrome Respiratória Aguda Grave)",
+        "periodo": "2002-2003",
+        "sintomas": "Febre alta, tosse seca, dor muscular, dificuldade respiratória.",
+        "descricao": "Causada pelo coronavírus SARS-CoV-1, surgiu na China e teve uma taxa de letalidade de cerca de 10%.",
+        "regiao": "Ásia, Canadá e outros países com casos importados",
+        "transmissao": "Contato próximo e gotículas respiratórias."
+        },
+
+        {
+        "id": 16,
+        "nome": "MERS (Síndrome Respiratória do Oriente Médio)",
+        "periodo": "Desde 2012",
+        "sintomas": "Febre, tosse, falta de ar, pneumonia grave.",
+        "descricao": "Doença viral causada pelo coronavírus MERS-CoV, com maior taxa de letalidade que o SARS, mas menos transmissível.",
+        "regiao": "Oriente Médio, Coreia do Sul e casos esporádicos em outros países",
+        "transmissao": "Contato com camelos infectados e transmissão entre humanos em hospitais."
+        },
+
+        {
+        "id": 17,
+        "nome": "Pandemia de Influenza de 1977 (Gripe Russa reemergente)",
+        "periodo": "1977-1978",
+        "sintomas": "Febre, dor de cabeça, fadiga, dor no corpo, tosse.",
+        "descricao": "Causada por uma cepa do vírus H1N1 semelhante à da gripe espanhola. Atingiu principalmente jovens e crianças.",
+        "regiao": "URSS, China e posteriormente outros países",
+        "transmissao": "Gotículas respiratórias."
+        }
+
+
+]
