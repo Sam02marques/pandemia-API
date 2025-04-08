@@ -1,0 +1,93 @@
+
+[
+    {
+      "id": 1,
+      "mentira": "Beber álcool mata o coronavírus.",
+      "verdade": "O álcool ingerido não mata o vírus no corpo. Pode causar problemas de saúde e intoxicação."
+    },
+    
+    {
+      "id": 2,
+      "mentira": "Vacinas causam autismo.",
+      "verdade": "Diversos estudos científicos já provaram que não há relação entre vacinas e autismo."
+    },
+
+    {
+      "id": 3,
+      "mentira": "5G espalha o coronavírus.",
+      "verdade": "O vírus é transmitido por gotículas respiratórias. 5G não tem nenhuma relação com transmissão de doenças."
+    },
+
+    {
+      "id": 4,
+      "mentira": "Tomar ivermectina previne a COVID-19.",
+      "verdade": "A ivermectina não tem eficácia comprovada contra o coronavírus e não deve ser usada sem orientação médica."
+    },
+
+    {
+      "id": 5,
+      "mentira": "Quem já teve COVID-19 está 100% imune.",
+      "verdade": "A reinfecção é possível, especialmente com novas variantes. A vacinação continua sendo necessária."
+    },
+
+
+    {
+      "id": 6,
+      "mentira": "Chá de limão com alho cura o coronavírus.",
+      "verdade": "Não existe cura caseira comprovada. Esses chás podem aliviar sintomas, mas não combatem o vírus."
+    },
+
+    {
+      "id": 7,
+      "mentira": "Máscaras causam intoxicação por CO2.",
+      "verdade": "O uso de máscaras não bloqueia a respiração nem causa acúmulo perigoso de CO2."
+    },
+
+    {
+      "id": 8,
+      "mentira": "A vacina da COVID-19 altera o DNA.",
+      "verdade": "Vacinas de mRNA não alteram o DNA humano. Elas apenas instruem o corpo a produzir defesa contra o vírus."
+    },
+
+    {
+      "id": 9,
+      "mentira": "O vírus foi criado em laboratório para controle populacional.",
+      "verdade": "Não há provas concretas que sustentem essa teoria conspiratória. A maioria dos cientistas apoia a origem natural."
+    },
+
+    {
+      "id": 10,
+      "mentira": "COVID-19 é só uma gripezinha.",
+      "verdade": "A COVID-19 pode causar complicações graves e já matou milhões de pessoas no mundo todo."
+    },
+
+    {
+        "id": 11,
+        "mentira": "Vacinas contra COVID-19 contêm chip para controle da população.",
+        "verdade": "Não há nenhum chip ou tecnologia de rastreamento nas vacinas. Essa teoria é infundada."
+    },
+
+    {
+        "id": 12,
+        "mentira": "Água com limão em jejum elimina o coronavírus do corpo.",
+        "verdade": "Não existe evidência científica de que isso tenha qualquer efeito sobre o vírus."
+    },
+
+    {
+        "id": 13,
+        "mentira": "Bill Gates planejou a pandemia para lucrar com vacinas.",
+        "verdade": "Não há qualquer prova disso. A Fundação Gates investe em saúde pública global há décadas."
+    },
+
+    {
+        "id": 14,
+        "mentira": "COVID-19 não afeta jovens.",
+        "verdade": "Embora os idosos estejam mais vulneráveis, jovens também podem ter complicações graves e morrer."
+    },
+
+    {
+        "id": 15,
+        "mentira": "O coronavírus morre em climas quentes.",
+        "verdade": "O vírus se espalhou em países tropicais e quentes, mostrando que temperatura não impede a contaminação."
+    }
+]

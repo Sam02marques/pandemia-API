@@ -6,6 +6,12 @@
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {},
+  "type": "module",
+  "imports": {
+  "#json": {
+    "default": "./data/pandemias.json"
+  }
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node --watch app.js"
