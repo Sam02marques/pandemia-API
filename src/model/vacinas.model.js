@@ -1,84 +1,25 @@
+import { Pandemia } from "./pandemias.model";
 
-[
-    {
-      "id": 1,
-      "nome": "BCG",
-      "doenca": "Tuberculose",
-      "ano_criacao": 1921,
-      "doses": "Dose única",
-      "via_administracao": "Intradérmica"
-    },
-    {
-      "id": 2,
-      "nome": "Vacina contra a Poliomielite (VIP/VOP)",
-      "doenca": "Poliomielite",
-      "ano_criacao": 1955,
-      "doses": "Múltiplas doses",
-      "via_administracao": "Oral ou intramuscular"
-    },
-    {
-      "id": 3,
-      "nome": "Vacina Tríplice Viral (SCR)",
-      "doenca": "Sarampo, Caxumba e Rubéola",
-      "ano_criacao": 1971,
-      "doses": "2 doses",
-      "via_administracao": "Subcutânea"
-    },
-    {
-      "id": 4,
-      "nome": "Vacina Hepatite B",
-      "doenca": "Hepatite B",
-      "ano_criacao": 1981,
-      "doses": "3 doses",
-      "via_administracao": "Intramuscular"
-    },
-    {
-      "id": 5,
-      "nome": "Vacina contra HPV",
-      "doenca": "Papilomavírus Humano",
-      "ano_criacao": 2006,
-      "doses": "2 ou 3 doses, conforme idade",
-      "via_administracao": "Intramuscular"
-    },
-    {
-      "id": 6,
-      "nome": "Vacina contra COVID-19 (Pfizer-BioNTech)",
-      "doenca": "COVID-19",
-      "ano_criacao": 2020,
-      "doses": "2 doses + reforços",
-      "via_administracao": "Intramuscular"
-    },
-    {
-      "id": 7,
-      "nome": "Vacina contra COVID-19 (CoronaVac)",
-      "doenca": "COVID-19",
-      "ano_criacao": 2020,
-      "doses": "2 doses + reforços",
-      "via_administracao": "Intramuscular"
-    },
-    {
-      "id": 8,
-      "nome": "Vacina contra Febre Amarela",
-      "doenca": "Febre Amarela",
-      "ano_criacao": 1937,
-      "doses": "Dose única (com reforço em casos específicos)",
-      "via_administracao": "Subcutânea"
-    },
-    {
-      "id": 9,
-      "nome": "Vacina DTP",
-      "doenca": "Difteria, Tétano e Coqueluche",
-      "ano_criacao": 1940,
-      "doses": "3 doses + reforços",
-      "via_administracao": "Intramuscular"
-    },
-    {
-      "id": 10,
-      "nome": "Vacina contra Influenza (Gripe)",
-      "doenca": "Gripe Influenza",
-      "ano_criacao": 1945,
-      "doses": "Anual",
-      "via_administracao": "Intramuscular"
-    }
-  ]
-  
+export class Vacina extends Pandemia {
+  constructor(id, nome, nomePandemia, ano_criacao, doses, via_administracao){
+    super(nomePandemia)
+    this.id = id;
+    this.nome = nome;
+    this.ano_criacao = ano_criacao;
+    this.doses = doses;
+    this.via_administracao = via_administracao
+  }
+}
+
+export const vacinas = [
+  new Vacina(1, "BCG", "Tuberculose", 1921, "Dose única", "Intradérmica"),
+  new Vacina(2, "Vacina contra a Poliomielite (VIP/VOP)", "Poliomielite", 1955, "Múltiplas doses", "Oral ou intramuscular"),
+  new Vacina(3, "Vacina Tríplice Viral (SCR)", "Sarampo, Caxumba e Rubéola", 1971, "2 doses", "Subcutânea"),
+  new Vacina(4, "Vacina Hepatite B", "Hepatite B", 1981, "3 doses", "Intramuscular"),
+  new Vacina(5, "Vacina contra HPV", "Papilomavírus Humano", 2006, "2 ou 3 doses, conforme idade", "Intramuscular"),
+  new Vacina(6, "Vacina contra COVID-19 (Pfizer-BioNTech)", "COVID-19", 2020, "2 doses + reforços", "Intramuscular"),
+  new Vacina(7, "Vacina contra COVID-19 (CoronaVac)", "COVID-19", 2020, "2 doses + reforços", "Intramuscular"),
+  new Vacina(8, "Vacina contra Febre Amarela", "Febre Amarela", 1937, "Dose única (com reforço em casos específicos)", "Subcutânea"),
+  new Vacina(9, "Vacina DTP", "Difteria, Tétano e Coqueluche", 1940, "3 doses + reforços", "Intramuscular"),
+  new Vacina(10, "Vacina contra Influenza (Gripe)", "Gripe Influenza", 1945, "Anual", "Intramuscular")
+];
