@@ -1,7 +1,10 @@
-import {pandemias} from '../model/pandemias.model.js'
+import {pandemias} from '../model/pandemias.model.js';
 /////////////
 export const get_pandemia = (_, res) =>{
+  try{
     res.json(pandemias);
+  }catch (erro) {
+    res.status(500).json({ erro: 'Erro ao listar pandemias' });}  
 };
 
 // Rota GET dinâmica por ID

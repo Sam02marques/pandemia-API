@@ -1,14 +1,14 @@
-export class Pandemia {
-    constructor(id, nome, periodo, sintomas, descricao, regiao, transmissao) {
-      this.id = id;
-      this.nome = nome;
-      this.periodo = periodo;
-      this.sintomas = sintomas;
-      this.descricao = descricao;
-      this.regiao = regiao;
-      this.transmissao = transmissao;
-    }
+export class Pandemia { // CLASSE PANDEMIA
+  constructor(id, nomePandemia, periodo, sintomas, descricao, regiao, transmissao) {
+    this.id = id;
+    this.nomePandemia = nomePandemia;
+    this.periodo = periodo;
+    this.sintomas = sintomas;
+    this.descricao = descricao;
+    this.regiao = regiao;
+    this.transmissao = transmissao;
   }
+}
   
   // Lista de pandemias
 export const pandemias = [
