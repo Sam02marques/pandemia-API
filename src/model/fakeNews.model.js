@@ -1,4 +1,4 @@
-export class FakeNews{
+export class FakeNews{ // CRIAÇÃO DA CLASSE FAKE NEWS COM PARAMETROS E UM CONSTRUCTOR
   constructor(id, mentira, verdade){
     this.id = id;
     this.mentira = mentira;
@@ -6,7 +6,7 @@ export class FakeNews{
   }
 }
 
-export const fake_news = [
+export const fake_news = [ // CRIANDO INSTÂNCIAS DA CLASSE FAKE NEWS
   new FakeNews(1, "Beber álcool mata o coronavírus.", "O álcool ingerido não mata o vírus no corpo. Pode causar problemas de saúde e intoxicação."),
 
   new FakeNews(2, "Vacinas causam autismo.", "Diversos estudos científicos já provaram que não há relação entre vacinas e autismo."),

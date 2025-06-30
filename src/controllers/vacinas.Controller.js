@@ -14,7 +14,7 @@ export const get_vacina = (_, res) =>{
 export const get_vacina_id = (req, res) => {
     const id = parseInt(req.params.id); // CONVERTE O ID PARA UM NÚMERO INTEIRO
     const vacina = vacinas.find(p => p.id === id); // PROCURA A VACINA PELO ID
-  
+/////////////////
     if (vacina) {
       res.send(vacina); // ENVIA A VACINA ENCONTRADA
     } else {
