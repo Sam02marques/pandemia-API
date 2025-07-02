@@ -21,5 +21,5 @@ app.use('/vacinas', rota_vacina);
 
 // INICIA O SERVIDOR E ESCUTA NA PORTA DEFINIDA
 app.listen(porta, () =>{
-    console.log(`http://localhost:${porta}/vacinas`); // LOGA A URL DE ACESSO DO SERVIDOR
+    console.log(`http://localhost:${porta}`); // LOGA A URL DE ACESSO DO SERVIDOR
 });
